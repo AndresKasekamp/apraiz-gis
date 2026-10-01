@@ -1,0 +1,10 @@
+/* Force JetBrains Mono Nerd Font (installed locally) across all slides */
+:root {
+  --r-main-font: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace !important;
+  --r-heading-font: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace !important;
+  --r-code-font: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace !important;
+}
+.reveal, .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6,
+.reveal p, .reveal li, .reveal code, .reveal pre {
+  font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace !important;
+}
